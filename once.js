@@ -19,8 +19,8 @@ function callTImeOnly(fn, count){
 // Example 1---------> called twice
 let count =0;
 function counter(){
-    console.log(countE);
-    return countE++;
+    console.log(count);
+    return count++;
 }
 callTImeOnly(counter, 2)();
 callTImeOnly(counter, 2)();
